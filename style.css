@@ -1,0 +1,246 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* section "husa" */
+
+.husa {
+    height: 100vh;
+    width: 100%;
+    background-image: url(baymax.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+span {
+    color: black;
+}
+
+
+/* home about portfolio form */
+nav ul li {
+    
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+
+        color: black;
+        transition: .5s;
+
+}
+
+
+/* insta linked */
+.icon {
+
+    color: black;
+    width: 2%;
+    transition: transform .4s;
+    height: auto;
+
+}
+
+.icon:hover {
+
+    transform: scale(1.2);
+
+}
+
+
+
+/* hello my name */
+.content {
+
+    left: 8%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50);
+
+}
+
+h1 {
+
+    font-size: 75px;
+    color: white;
+    margin: 20px 0px 20px;
+
+}
+
+h3 {
+
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+h4 {
+
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+}
+.ngirimemail form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.ngirimemail form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    outline: none;
+}
+.ngirimemail form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+
+
+
+/* section "my" */
+
+.my {
+
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.my img {
+
+    height: auto;
+    width: 430px;
+}
+
+.my-text {
+
+    width: 550px;
+
+}
+
+.my-text h2 {
+
+    font-size: 75px;
+    color: black;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+
+}
+
+.my-text h5 {
+
+    font-size: 22px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    color: black;
+    text-transform: capitalize;
+
+}
+
+.my-text p {
+
+    line-height: 28px;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+
+.main {
+
+    align-items: center;
+    width: 1130px;
+    justify-content: space-around;
+    margin: 0 auto;
+    display: flex;
+    max-width: 95%;
+}
+
+
+
+
+/* button */
+button {
+
+    transition: .5s;
+    margin-right: 50px;
+    background-color: red;
+    border: 2px solid transparent;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 30px;
+
+}
+
+button:hover {
+
+    border: 2px solid red;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+
+/* nav .menu .dropdown {
+
+    display: none;
+}
+
+nav ul li:hover .dropdown {
+
+    display: block;
+    background-color: black;
+    position: absolute;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+} */
